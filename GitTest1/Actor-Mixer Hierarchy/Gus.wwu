@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{50E97118-143E-450E-BEBF-9C344D4DDC03}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{717F0761-8ADA-48AC-B176-D68775A1FC3D}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Gus" ID="{50E97118-143E-450E-BEBF-9C344D4DDC03}" PersistMode="Standalone"/>
+		<WorkUnit Name="Gus" ID="{717F0761-8ADA-48AC-B176-D68775A1FC3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Acetantina - Temple of Null - 01 Puddle of Nitrogen" ID="{FEFC9262-9E0C-4B81-8E69-3416913E08A5}" ShortID="998519781">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{55EFF8A9-EAA4-431A-AD58-DBE192FA2104}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Acetantina - Temple of Null - 01 Puddle of Nitrogen" ID="{C8137202-EF50-4BFD-90EB-831528698818}">
+							<Language>SFX</Language>
+							<AudioFile>Acetantina - Temple of Null - 01 Puddle of Nitrogen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="332751964"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Acetantina - Temple of Null - 01 Puddle of Nitrogen" ID="{C8137202-EF50-4BFD-90EB-831528698818}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
