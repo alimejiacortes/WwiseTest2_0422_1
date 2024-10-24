@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DC340A8-C854-4FAD-8BE6-E781FA49F847}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="MaximilianoCalderón" ID="{1DC340A8-C854-4FAD-8BE6-E781FA49F847}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX" ID="{9D8CCB30-652B-40EA-9A43-A131C5A93E6A}" ShortID="248996223">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{55EFF8A9-EAA4-431A-AD58-DBE192FA2104}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Clocks, Tick, Old Wall Clocks, Ticks, Mechanical 01 SND49882" ID="{AEA85654-6582-48CE-9874-818AE9830456}">
+							<Language>SFX</Language>
+							<AudioFile>Clocks, Tick, Old Wall Clocks, Ticks, Mechanical 01 SND49882.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="952700670"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Clocks, Tick, Old Wall Clocks, Ticks, Mechanical 01 SND49882" ID="{AEA85654-6582-48CE-9874-818AE9830456}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
