@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3BCBC7CF-B38D-4E35-8130-01137F500D3E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="JaimeSandoval" ID="{3BCBC7CF-B38D-4E35-8130-01137F500D3E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Jaime1" ID="{D5D7883F-D7A9-4FF0-8A67-9AF0AC7136AD}" ShortID="260964445">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{55EFF8A9-EAA4-431A-AD58-DBE192FA2104}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Birds, Sea, Penguin Vocalization, Close, Short, Singular, Wind SND104783" ID="{152D4E3C-4F50-465F-A749-127291D00DA8}">
+							<Language>SFX</Language>
+							<AudioFile>Birds, Sea, Penguin Vocalization, Close, Short, Singular, Wind SND104783.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1042666455"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Birds, Sea, Penguin Vocalization, Close, Short, Singular, Wind SND104783" ID="{152D4E3C-4F50-465F-A749-127291D00DA8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
