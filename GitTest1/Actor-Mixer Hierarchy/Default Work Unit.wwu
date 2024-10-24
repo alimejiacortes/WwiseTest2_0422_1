@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E26394BA-58BC-4F3F-AE15-C77CDA89CF5C}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E26394BA-58BC-4F3F-AE15-C77CDA89CF5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test1" ID="{CDABD03A-B93A-432B-B55C-C63B95B0520B}" ShortID="711206802">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND122026"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1729786493HpX8s5VczCsl9vVPRKL&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND122026/sfy_firseeNQnHMCrxnDyUyHjcRVWcYHjQ"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="29.8794375"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Voices, Scream, Female Professional Screamer, Insane, Long Wailing SND122026 1.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.008807045636509208"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.08807045636509207"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{55EFF8A9-EAA4-431A-AD58-DBE192FA2104}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Scream, Female Professional Screamer, Insane, Long Wailing SND122026 1" ID="{D00B3E5D-4200-4736-878C-3AA2DD93DD20}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND122026"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.263149569655725"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.63149569655725"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Voices, Scream, Female Professional Screamer, Insane, Long Wailing SND122026 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="168765678"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Scream, Female Professional Screamer, Insane, Long Wailing SND122026 1" ID="{D00B3E5D-4200-4736-878C-3AA2DD93DD20}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
