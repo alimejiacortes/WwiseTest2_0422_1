@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{23BD2D5B-A0ED-4DB2-A54A-F2CCEB23ED5F}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{39D77EBB-E356-46BE-80C9-68C48F4C4503}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="alberto sanchez" ID="{23BD2D5B-A0ED-4DB2-A54A-F2CCEB23ED5F}" PersistMode="Standalone">
+		<WorkUnit Name="GabrielE" ID="{39D77EBB-E356-46BE-80C9-68C48F4C4503}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name=" Ha!   No Reverb by WelvynZPorterSamples Id-623441" ID="{30938346-AB9D-41B0-A1AE-D047212478D1}" ShortID="97733241">
+				<Sound Name="Pistol_Reload_02" ID="{0C79A103-EBFB-4509-9829-47EAD556E2FF}" ShortID="264825274">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA9E0B34-CB7C-45A9-8572-0429D9CC266C}"/>
@@ -13,16 +13,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name=" Ha!   No Reverb by WelvynZPorterSamples Id-623441" ID="{D285EB41-7F91-4878-AC0A-9BD1C283BFA4}">
+						<AudioFileSource Name="Pistol_Reload_02" ID="{79343143-30C6-4BC0-A2BB-1A6C327CE889}">
 							<Language>SFX</Language>
-							<AudioFile> Ha!   No Reverb by WelvynZPorterSamples Id-623441.wav</AudioFile>
+							<AudioFile>Pistol_Reload_02.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="904283621"/>
+								<MediaID ID="1064710283"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name=" Ha!   No Reverb by WelvynZPorterSamples Id-623441" ID="{D285EB41-7F91-4878-AC0A-9BD1C283BFA4}" Platform="Linked"/>
+						<ActiveSource Name="Pistol_Reload_02" ID="{79343143-30C6-4BC0-A2BB-1A6C327CE889}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
